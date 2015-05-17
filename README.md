@@ -19,7 +19,7 @@ Then restart Atom editor.
 
 ## Features:
 
-* Expand abbreviations by <kbd>shift-space</kbd>.
+* Expand abbreviations by <kbd>shift</kbd> + <kbd>space</kbd>.
 
 ## Shift-space key
 
