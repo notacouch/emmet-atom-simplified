@@ -1,13 +1,13 @@
 {
-  "name": "emmet",
-  "description": "Emmet – the essential tool for web developers",
+  "name": "emmet-simplified",
+  "description": "Emmet Simplified – the simplified essential tool for web developers",
   "main": "./lib/emmet",
   "version": "2.3.9",
   "dependencies": {
     "emmet": "^1.3.1",
     "atom-space-pen-views": "^2.0.3"
   },
-  "repository": "https://github.com/emmetio/emmet-atom",
+  "repository": "https://github.com/Yatoom/emmet-atom-simplified",
   "engines": {
     "atom": "*"
   }
