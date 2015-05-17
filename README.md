@@ -29,4 +29,4 @@ You can change these Preferences > Emmet.
 
 Command | Darwin | Linux/Windows
 ------- | ------ | -------------
-Expand Abbreviation | <kbd>shift-tab</kbd> | <kbd>shift-tab</kbd>
+Expand Abbreviation | <kbd>shift-space</kbd> | <kbd>shift-space</kbd>
