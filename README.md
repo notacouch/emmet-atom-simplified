@@ -18,7 +18,6 @@ Then restart Atom editor.
 ## Features:
 
 * Expand abbreviations by <kbd>shift-space</kbd>.
-* Multiple cursor support: most [Emmet actions](http://docs.emmet.io/actions/) like Expand Abbreviation, Wrap with Abbreviation, Update Tag can run in multi-cursor mode.
 
 ## Shift-space key
 
@@ -30,4 +29,4 @@ You can change these Preferences > Emmet.
 
 Command | Darwin | Linux/Windows
 ------- | ------ | -------------
-Expand Abbreviation | <kbd>shift-s</kbd> or <kbd>shift</kbd> + <kbd>⌘</kbd> + <kbd>e</kbd> | <kbd>tab</kbd> or <kbd>ctrl</kbd> + <kbd>e</kbd>
+Expand Abbreviation | <kbd>shift-tab</kbd> | <kbd>shift-tab</kbd>
