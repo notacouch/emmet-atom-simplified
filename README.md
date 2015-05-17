@@ -1,6 +1,6 @@
 # Simplified Emmet plugin Atom editor
 
-[Emmet](http://emmet.io) support for [Atom](http://atom.io). This is a fork of the emmet package, and has one key-binding, and one key-binding ony: the <kbd>shift-space</kbd> key for emmet expanding. This solves all keybinding conflicts with the Atom Core, such as the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>M</kbd> for toggling the Markdown preview, the <kbd>ctrl</kbd> +  <kbd>,</kbd> for opening the Settings View, and recently <kbd>tab</kbd> for [Atom's new autocomplete](http://blog.atom.io/2015/05/15/new-autocomplete.html). Other than that, there are - as of yet - no differences with emmet-atom, which means you have the freedom to manually add other emmet keybindings in your `keymap.cson`.
+[Emmet](http://emmet.io) support for [Atom](http://atom.io). This is a fork of the emmet package, and has one key-binding, and one key-binding ony: the <kbd>shift</kbd> + <kbd>space</kbd> key for emmet expanding. This solves all keybinding conflicts with the Atom Core, such as the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>M</kbd> for toggling the Markdown preview, the <kbd>ctrl</kbd> +  <kbd>,</kbd> for opening the Settings View, and recently <kbd>tab</kbd> for [Atom's new autocomplete](http://blog.atom.io/2015/05/15/new-autocomplete.html). Other than that, there are - as of yet - no differences with emmet-atom, which means you have the freedom to manually add other emmet keybindings in your `keymap.cson`.
 
 ### Manual installation
 
