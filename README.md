@@ -4,9 +4,12 @@
 
 Other than that, there are - as of yet - no differences with emmet-atom, which means that you have the freedom to manually add any other Emmet triggers you want. To do so, go to _Edit_ > _Open Your Keymap_ and refer to the [original default emmet-atom keymap](https://github.com/emmetio/emmet-atom/blob/master/keymaps/emmet.cson) for a complete list of commands.
 
+### Installation
+In Atom, open Preferences > Packages, search for the `emmet-simplified` package. Once found, click install to install package. Alternatively, you could run `apm install emmet-simplified`.
+
 ### Manual installation
 
-You can install the latest Emmet version manually from console:
+You can install the latest emmet-simplified version manually from console:
 
 ```bash
 cd ~/.atom/packages
