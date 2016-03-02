@@ -1,8 +1,17 @@
 # Simplified Emmet plugin Atom editor
 
-[Emmet](http://emmet.io) support for [Atom](http://atom.io). This is a fork of the emmet-atom package, and has one key-binding, and one key-binding ony: the <kbd>shift</kbd> + <kbd>space</kbd> key for emmet expanding. This solves all keybinding conflicts with the Atom Core, such as the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>M</kbd> for toggling the Markdown preview, the <kbd>ctrl</kbd> +  <kbd>,</kbd> for opening the Settings View, and recently <kbd>tab</kbd> for [Atom's new autocomplete](http://blog.atom.io/2015/05/15/new-autocomplete.html).
+This is a fork of the [emmet-atom](https://github.com/emmetio/emmet-atom) package, and has one key-binding, and one key-binding ony: the <kbd>shift</kbd> + <kbd>space</kbd> key for emmet expanding. This solves all keybinding conflicts with the Atom Core, such as the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>M</kbd> for toggling the Markdown preview, the <kbd>ctrl</kbd> +  <kbd>,</kbd> for opening the Settings View, and <kbd>tab</kbd> for [Atom's new autocomplete](http://blog.atom.io/2015/05/15/new-autocomplete.html).
 
-Other than that, there are - as of yet - no differences with emmet-atom, which means that you have the freedom to manually add any other Emmet triggers you want. To do so, go to _Edit_ > _Open Your Keymap_ and refer to the [original default emmet-atom keymap](https://github.com/emmetio/emmet-atom/blob/master/keymaps/emmet.cson) for a complete list of commands.
+All functionality of the emmet-atom package is still here, which means that you have the freedom to manually add any other Emmet triggers you want. To do so, go to _Edit_ > _Open Your Keymap_ and refer to the [original default emmet-atom keymap](https://github.com/emmetio/emmet-atom/blob/master/keymaps/emmet.cson) for a complete list of commands.
+
+This plugin will occasionally be synced with its upstream repository when new updates arrive. Furthermore, thanks to contributions, emmet expanding can also be triggered inside files with PHP and JS (for [React](https://facebook.github.io/react/)) grammar.
+
+Note that you could also just enable emmet expanding everywhere, by opening your keymap (_Edit > Open Your Keymap_) and adding the following piece of text:
+
+```
+'atom-text-editor:not([mini])':
+   'shift-space': 'emmet:expand-abbreviation-with-tab'
+```
 
 ### Installation
 In Atom, open Preferences > Packages, search for the `emmet-simplified` package. Once found, click install to install package. Alternatively, you could run `apm install emmet-simplified`.
